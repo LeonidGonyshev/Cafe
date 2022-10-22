@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+li {
+    list-style: none;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1440px;
+    background-color: #161516;
+    padding-bottom: 68px;
+    font-family: 'Montserrat', sans-serif;
+}
+.header {
+    max-width: 1308px;
+    padding-top: 48px;
+}
+.wrapper {
+    max-width: 1308px;
+}
+.header__container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #FFFFFF;
+    margin-bottom: 75px;
+
+}
+.header__title {
+    margin-right: 510px;
+    font-size: 31px;
+    line-height: 38px;
+    text-transform: uppercase;
+
+}
+.header__goods {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    text-align: right;
+}
+.header__basket {
+    padding: 15px;
+    background: #D58C51;
+    border-radius: 50%;
+}
+.header__exit {
+    padding: 12px 75px;
+    border: 1px solid #D58C51;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #D58C51;
+}
+.main__menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px 20px;
+}
+.main__item {
+    display: flex;
+    flex-direction: column;
+    max-width: 312px;
+    min-height: 552px;
+    padding: 43px 21px 32px 21px;
+    border: 1px solid #D58C51;
+    color: #FFFFFF;
+    transition: color 0.2s ease-in-out;
+}
+.main__item:hover {
+    color: #D58C51;
+}
+.main__img {
+    border-radius: 50%;
+    margin-bottom: 31px;
+}
+
+.main__title {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    margin-bottom: 10px;
+}
+.main__descr {
+    margin-bottom: auto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+}
+.main__bay {
+    display: flex;
+    align-items: center;
+}
+.main__price {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    margin-right: 7px;
+}
+.main__weight {
+    margin-right: auto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+.main__btn {
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    padding: 6px 9px;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+    transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+.main__btn:hover {
+    border-color: #D58C51;
+    background-color: #D58C51;
+}

@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #161516;
+}
+.wrapper {
+    max-width: 1300px;
+}
+.header__container {
+    display: flex;
+    align-items: center;
+    padding-top: 52px;
+    margin-bottom: 38px;
+}
+.header__link {
+    margin-right: 63px;
+    padding: 8px 12px;
+    border: 1px solid #D58C51;
+    border-radius: 50%;
+}
+.header__title {
+    margin-right: 328px;
+    font-size: 31px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.header__exit {
+    padding: 12px 75px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #D58C51;
+    border: 1px solid #D58C51;
+}
+.main {
+    margin-bottom: 102px;
+}
+.main__item {
+    display: flex;
+    align-items: center;
+}
+.main__list {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.main__img {
+    border-radius: 50%;
+    margin-right: 98px;
+}
+.item-name {
+    width: 310px;
+    margin-right: 212px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #fff;
+}
+.item-price {
+    margin-right: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #D58C51;
+}
+.item-delete {
+    padding: 6px 9px;
+    border: 1px solid #D58C51;
+    border-radius: 50%;
+}
+.footer {
+    width: 100%;
+    border-top: 1px solid #D58C51;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 27px;
+}
+.footer__title {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 16px;
+}
+.footer__sum {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #D58C51;
+    margin-right: 380px;
+}
+.footer__link {
+    font-size: 14px;
+    line-height: 17px;
+    color: #131313;
+    padding: 12px 40px;
+    background: #D58C51;
+}
