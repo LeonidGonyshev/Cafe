@@ -1,0 +1,22 @@
+{
+  "name": "cafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonidGonyshev/Cafe.git"
+  },
+  "author": "l",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeonidGonyshev/Cafe/issues"
+  },
+  "homepage": "https://github.com/LeonidGonyshev/Cafe#readme",
+  "dependencies": {
+    "resetcss": "^1.0.3"
+  }
+}

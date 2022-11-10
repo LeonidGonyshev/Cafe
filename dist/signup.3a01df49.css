@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+
+body {
+  height: 100vh;
+  background-image: url("registration.3e99c8f2.jpg");
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.main {
+  background-color: #fff;
+  padding: 36px 20px;
+  position: relative;
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 36px;
+  font-size: 31px;
+  line-height: 38px;
+}
+
+.input {
+  width: 420px;
+  border: 1px solid #d58c51;
+  border-radius: 61px;
+  outline: none;
+  padding: 10px 18px;
+  display: block;
+}
+
+.input::placeholder, .title {
+  color: #161516;
+}
+
+.main__link {
+  color: #d58c51;
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 13px;
+  position: absolute;
+  top: 7px;
+  right: 19px;
+}
+
+.input__top {
+  margin-bottom: 15px;
+}
+
+.input__bottom {
+  margin-bottom: 61px;
+}
+
+.form__btn {
+  color: #131313;
+  background: #d58c51;
+  border: none;
+  margin: 0 auto;
+  padding: 12px 77px;
+  display: block;
+}
+
+.reg_btn {
+  padding: 12px 24px;
+}
+
+.custom-radio {
+  z-index: -1;
+  opacity: 0;
+  position: absolute;
+}
+
+.custom-radio + label {
+  -webkit-user-select: none;
+  user-select: none;
+  align-items: center;
+  display: inline-flex;
+}
+
+.custom-radio + label:before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+  border: 1px solid #d58c51;
+  border-radius: 50%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin-right: 9px;
+  display: inline-block;
+}
+
+.custom-radio:checked + label:before {
+  background-color: green;
+  border-color: #d58c51;
+}
+
+.input__bottom_registr {
+  margin-bottom: 17px;
+}
+
+.label {
+  color: #301411;
+  margin-bottom: 30px;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+/*# sourceMappingURL=signup.3a01df49.css.map */

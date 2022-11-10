@@ -18,10 +18,10 @@
             </h1>
             <div class="header__goods">
                 <p class="header__quantity">
-                    3 товара
+                    <span id="basket-goods">0</span> товара
                 </p>
                 <p class="header__sum">
-                    на сумму 3350 ₽
+                    на сумму <span id="basket-total">0</span> ₽
                 </p>
             </div>
             <a href="/busket.html" class="header__basket">
@@ -48,7 +48,7 @@
                     <div class="main__bay">
                         <span class="main__price">2 700 ₽</span>
                         <span class="main__weight">/ 500 г.</span>
-                        <button class="main__btn">
+                        <button data-price="2700" data-goods="1" class="main__btn menu-add-button">
                             <img src="img/cross.svg" alt="cross" class="main__cross">
                         </button>
                     </div>
@@ -66,7 +66,7 @@
                     <div class="main__bay">
                         <span class="main__price">1 600 ₽</span>
                         <span class="main__weight">/ 750 г.</span>
-                        <button class="main__btn">
+                        <button data-price="1600" data-goods="1" class="main__btn menu-add-button">
                             <img src="img/cross.svg" alt="cross" class="main__cross">
                         </button>
                     </div>
@@ -84,7 +84,7 @@
                     <div class="main__bay">
                         <span class="main__price">1 820 ₽</span>
                         <span class="main__weight">/ 7 шт.</span>
-                        <button class="main__btn">
+                        <button data-price="1820" data-goods="1" class="main__btn menu-add-button">
                             <img src="img/cross.svg" alt="cross" class="main__cross">
                         </button>
                     </div>
@@ -102,7 +102,7 @@
                     <div class="main__bay">
                         <span class="main__price">2 700 ₽</span>
                         <span class="main__weight">/ 500 г.</span>
-                        <button class="main__btn">
+                        <button data-price="2700" data-goods="1" class="main__btn menu-add-button">
                             <img src="img/cross.svg" alt="cross" class="main__cross">
                         </button>
                     </div>
@@ -120,7 +120,7 @@
                     <div class="main__bay">
                         <span class="main__price">2 700 ₽</span>
                         <span class="main__weight">/ 500 г.</span>
-                        <button class="main__btn">
+                        <button data-price="2700" data-goods="1" class="main__btn menu-add-button">
                             <img src="img/cross.svg" alt="cross" class="main__cross">
                         </button>
                     </div>
@@ -138,7 +138,7 @@
                     <div class="main__bay">
                         <span class="main__price">1 600 ₽</span>
                         <span class="main__weight">/ 750 г.</span>
-                        <button class="main__btn">
+                        <button data-price="1600" data-goods="1" class="main__btn menu-add-button">
                             <img src="img/cross.svg" alt="cross" class="main__cross">
                         </button>
                     </div>
@@ -156,7 +156,7 @@
                     <div class="main__bay">
                         <span class="main__price">1 820 ₽</span>
                         <span class="main__weight">/ 7 шт.</span>
-                        <button class="main__btn">
+                        <button data-price="1820" data-goods="1" class="main__btn menu-add-button">
                             <img src="img/cross.svg" alt="cross" class="main__cross">
                         </button>
                     </div>
@@ -174,7 +174,7 @@
                     <div class="main__bay">
                         <span class="main__price">2 700 ₽</span>
                         <span class="main__weight">/ 500 г.</span>
-                        <button class="main__btn">
+                        <button data-price="2700" data-goods="1" class="main__btn menu-add-button">
                             <img src="img/cross.svg" alt="cross" class="main__cross">
                         </button>
                     </div>
@@ -182,5 +182,6 @@
             </ul>
         </div>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>

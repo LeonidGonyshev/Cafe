@@ -17,8 +17,8 @@
                 <img src="img/header.svg" alt="direct" class="header__direct">
             </a>
             <div class="header__goods">
-                <p class="goods">3 товара</p>
-                <p class="sum">на сумму 3 500р</p>
+                <p class="goods"> <span id="basket-goods">0</span> товара</p>
+                <p class="sum">на сумму <span id="basket-total">0</span> р</p>
             </div>
             <a href="/busket.html" class="header__busket">
                 <img src="img/basket.svg" alt="busket" class="busket-img">
@@ -51,11 +51,12 @@
                 <p class="main__weight">
                     / 7 шт.
                 </p>
-                <a href="#" class="main__link">
+                <a data-price="1820" data-goods="1" href="#" class="main__link menu-add-button">
                     В корзину
                 </a>
             </div>
         </div>
     </main>
+    <script src="card-script.js"></script>
 </body>
 </html>

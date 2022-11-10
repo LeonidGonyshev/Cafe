@@ -11,6 +11,7 @@ body {
     padding: 0 70px;
     background-color: #131313;
     font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
 }
 .header {
     padding-top: 48px;
@@ -23,7 +24,7 @@ body {
 }
 .header__link {
     margin-right: auto;
-    padding: 6px 10px;
+    padding: 3px 10px 8px 10px;
     border: 1px solid #D58C51;
     border-radius: 50%;
 }
